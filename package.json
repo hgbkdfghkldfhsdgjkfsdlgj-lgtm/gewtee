@@ -1,25 +1,12 @@
 {
-  "name": "testjs",
-  "version": "1.0.0",
-  "main": "src/calculator.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/hello.js",
     "test": "jest"
   },
-  "jest": {
-    "reporters": [
-      "default",
-      [
-        "jest-junit",
-        {
-          "outputDirectory": "./TestResults",
-          "outputName": "junit.xml"
-        }
-      ]
-    ]
-  },
   "devDependencies": {
-    "jest": "^29.0.0",
-    "@types/jest": "^29.0.0",
-    "jest-junit": "^16.0.0"
+    "@types/jest": "^30.0.0",
+    "jest": "^30.3.0",
+    "ts-jest": "^29.4.9"
   }
 }
