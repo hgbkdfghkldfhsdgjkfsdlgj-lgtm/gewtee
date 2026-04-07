@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.056">
+  <testsuite name="hello function" errors="0" failures="0" skipped="0" timestamp="2026-04-07T10:06:21" time="0.882" tests="1">
+    <testcase classname="hello function should return greeting message" name="hello function should return greeting message" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
