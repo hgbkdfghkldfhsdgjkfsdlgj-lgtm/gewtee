@@ -19,5 +19,11 @@
     "ts-jest": "^29.4.9",
     "ts-node": "^10.9.2",
     "typescript": "^6.0.2"
+  },
+   "jest": {
+    "reporters": [
+      "default",
+      ["jest-junit", { "outputDirectory": "./TestResults", "outputName": "junit.xml" }]
+    ]
   }
 }
