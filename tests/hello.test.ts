@@ -1,5 +1,7 @@
 import { hello } from "../src/hello";
 
-test("returns correct greeting check", () => {
-  expect(hello("World")).toBe("Hello, World!");
+describe("hello function", () => {
+  it("should return greeting message", () => {
+    expect(hello("World")).toBe("Hello, World!");
+  });
 });
